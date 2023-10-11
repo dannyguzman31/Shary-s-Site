@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+::selection {
+  background-color: #FFBAA3;
+  color: #fff;
+}
+::-moz-selection {
+  background-color: #FFBAA3;
+  color: #fff;
+}
+
+.theme-color {
+  color: #FFBAA3;
+}
+
+.theme-after-bg:after,
+.btn-theme,
+.theme-bg {
+  background: #FFBAA3;
+}
+
+.btn-theme {
+  border-color: #FFBAA3;
+}
+
+.portfolio-hover-01 .action-btn a:hover,
+.portfolio-filter li:hover,
+.portfolio-filter li.active,
+.owl-dots .owl-dot.active,
+.m-btn-theme,
+.title-section h2:after,
+.m-btn-white:hover,
+.theme-after:after,
+.theme-g-bg {
+  background: #FFBAA3;
+  background: -webkit-linear-gradient(to right, #f7837b, #FFBAA3);
+  background: linear-gradient(to right, #f7837b, #FFBAA3);
+}
+
+/*Reverce*/
+.m-btn-theme:hover {
+  background: #0072ff;
+  background: -webkit-linear-gradient(to left, #e5989b, #b5838d);
+  background: linear-gradient(to left, #e5989b, #b5838d);
+}
+
+.home-banner .avtar-img,
+.m-btn-theme:hover,
+.m-btn-white:hover {
+  box-shadow: 0px 15px 20px rgba(109, 104, 117, 0.4);
+}
+
+@media (max-width: 991px) {
+  .header {
+    background: #FFBAA3;
+  }
+}
