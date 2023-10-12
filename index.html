@@ -822,7 +822,18 @@
                 <!-- Contact Form -->
                 <div class="contact-form">
                   <h2>Say Something</h2>
-                  <form method="POST">
+                  <form
+                  action="https://formsubmit.co/sharyromano@gmail.com"
+                  method="POST"
+                >
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://dannyguzman31.github.io/Sharys-Site/thanks.html"
+                  />
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input type="hidden" name="_template" value="table" />
+                </form>
                     <div class="form-group">
                       <input
                         name="Name"
@@ -830,6 +841,7 @@
                         placeholder="Name"
                         class="form-control"
                         type="text"
+                        required
                       />
                     </div>
                     <div class="form-group">
@@ -839,6 +851,7 @@
                         placeholder="Email"
                         class="form-control"
                         type="email"
+                        required
                       />
                     </div>
                     <div class="form-group">
@@ -848,23 +861,21 @@
                         placeholder="Subject"
                         class="form-control"
                         type="text"
+                        required
                       />
                     </div>
                     <div class="form-group">
                       <textarea
                         name="message"
                         id="message"
-                        placeholder="Describe your project"
+                        placeholder="Describe your project or comment"
                         rows="3"
                         class="form-control"
+                        required
                       ></textarea>
                     </div>
                     <div class="send">
-                      <button
-                        class="m-btn m-btn-theme"
-                        onclick="send_mail()"
-                        type="button"
-                        value="Send"
+                      <button class="m-btn m-btn-theme" id="submit" type="submit" value="Send"
                       >
                         Send
                       </button>
@@ -914,7 +925,8 @@
         <p class="copyright">
           <script>
             document.write(new Date().getFullYear());
-          </script>. All Rights Reserved
+          </script>
+          . All Rights Reserved
         </p>
       </div>
     </footer>
