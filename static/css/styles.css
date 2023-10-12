@@ -32,6 +32,7 @@ Table of contents
 
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300,500,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 
 /*---------------------------------
 * 01. Loading
@@ -205,8 +206,12 @@ img {
   font-family: 'Sunflower', sans-serif;
 }
 
+.font-alt-header {
+  font-family: 'Borel', cursive;
+}
+
 .gray-bg {
-  background: #fcd5ce;
+  background: #f7f7f7;
 }
 .white-bg {
   background: #fff;

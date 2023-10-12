@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 ::selection {
-  background-color: #FFBAA3;
+  background-color: #ffbaa3;
   color: #fff;
 }
 ::-moz-selection {
-  background-color: #FFBAA3;
+  background-color: #ffbaa3;
   color: #fff;
 }
 
 .theme-color {
-  color: #FFBAA3;
+  color: #ffbaa3;
 }
 
 .theme-after-bg:after,
 .btn-theme,
 .theme-bg {
-  background: #FFBAA3;
+  background: #ffbaa3;
 }
 
 .btn-theme {
-  border-color: #FFBAA3;
+  border-color: #ffbaa3;
 }
 
 .portfolio-hover-01 .action-btn a:hover,
@@ -32,9 +32,9 @@
 .m-btn-white:hover,
 .theme-after:after,
 .theme-g-bg {
-  background: #FFBAA3;
-  background: -webkit-linear-gradient(to right, #f7837b, #FFBAA3);
-  background: linear-gradient(to right, #f7837b, #FFBAA3);
+  background: #ffbaa3;
+  background: -webkit-linear-gradient(to right, #f7837b, #ffbaa3);
+  background: linear-gradient(to right, #f7837b, #ffbaa3);
 }
 
 /*Reverce*/
@@ -52,6 +52,6 @@
 
 @media (max-width: 991px) {
   .header {
-    background: #FFBAA3;
+    background: #ffbaa3;
   }
 }
